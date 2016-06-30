@@ -7,9 +7,9 @@ function Calculator () {
             objects: function () {
                 return Game.UpgradesInStore.filter(function(e) {
                     return ([
-                        333, // milk selector
+                        331, 332, 333, 361, // prestige related switches
                         64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 84, 85, 87, 141, // bingo upgrades
-                        182, 183, 184, 185 // season switchers
+                        182, 183, 184, 185, 209 // season switchers
                     ].indexOf(e.id) < 0);
                 });
             },
